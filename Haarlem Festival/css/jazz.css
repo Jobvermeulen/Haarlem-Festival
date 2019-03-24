@@ -1,0 +1,63 @@
+body{
+    background-image: url('../../images/jazz/jazz-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:15px;
+}
+
+.heading-information {
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.blue-line { 
+    width:50%; 
+    text-align:center; 
+    border-bottom: 1px solid #68ddd1; 
+    line-height:0.1em; 
+    margin:10px 0 20px; 
+} 
+
+.space-between-line { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.information-block{
+    background-color: #abd7de;
+    border-color: #abd7de;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.text-article {
+    font-family: Bahnschrift;
+    text-align: left;
+    font-weight: bold;
+    margin: 1%;
+    padding: 1%;
+    color: #494f36;
+}
+
+.image-article {
+    float: right;
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+    margin: 2%;
+}
+
+.centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+

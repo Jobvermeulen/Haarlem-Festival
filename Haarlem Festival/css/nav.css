@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Bahnschrift Light, Bahnschrift;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    font-family: Bahnschrift Light, Bahnschrift;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3em;
+    color: #363636;
+}
+
+
+h3 {
+    font-family: Bahnschrift Light, Bahnschrift;
+}
+
+.page_section {
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 10px;
+}
+
+/* nav {
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 10px;
+} */
+
+nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 0.7em;
+    text-decoration: none;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+
+nav .menu {
+    padding:1.5em;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+}
+
+nav img {
+    float: left;
+    height: 100px;
+}
+
+nav a:hover {
+    color: #6ccb3a;
+}
+
+nav a.active {
+    color: #6ccb3a;
+}
+
+nav .nav-line {
+    width: 25px;
+    padding-top: 23px;
+    padding-left: 1%;
+    border-bottom: solid 1px #68ddd1;
+    float: left;
+}
+
+/* footer {
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 10px;
+} */
+
+.img-social-media {
+    text-align: center;
+}
+
+.img-social-media .facebook, .img-social-media .twitter, .img-social-media .instagram {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.img-container .facebook {
+    padding-top: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.center{
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    nav a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    nav-right {
+        float: none;
+    }
+}

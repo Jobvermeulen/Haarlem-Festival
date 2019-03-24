@@ -1,0 +1,101 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.ticket_box {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: auto;
+    width:70%;
+    margin: 0 auto;  
+    border: 1px solid black;
+} 
+
+.ticket-line {
+    width: 25px;
+    padding-top: 23px;
+    padding-left: 1%;
+    border-bottom: solid 1px #fe982f;
+    float: left;
+}
+
+.ticket-line-blue {
+    width: 100%;
+    padding-left: 1%;
+    border-bottom: solid 1px #68ddd1;
+    /*float: left; */
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+
+.button_grey{
+    background-color: #E4E4E4;
+    color: black;
+    border: 1px;
+    border-color: #797979;
+    /* float: left; */
+}
+
+.button_green{
+    background-color: #70B95E;
+    color: #FFFFFF;
+    border: 1px;
+    /* float: right; */
+}
+
+.amount-ticket-box {
+    background-color: white;
+    width: 200px;
+    border: 1px solid black;
+    display: block;
+    padding: 12px;
+    margin: 15px;
+}
+
+.total-price-box {
+    background-color: white;
+    width: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    display: block;
+    padding: 12px;
+    margin: 15px;
+}
+
+.container {
+    width: 75%;
+  margin: 0 auto;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  height: 11em;
+  flex-wrap: wrap;
+  float: left;
+  clear: both;
+}
+
+.left {
+    width: 10em;
+}
+
+.right {
+    width: 10em;
+}
+
+.tickets-arrows {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

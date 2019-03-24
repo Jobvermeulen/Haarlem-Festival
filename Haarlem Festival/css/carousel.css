@@ -1,0 +1,49 @@
+  .wrapper { position: relative; }
+  
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    top: 50%;
+    margin-top: -50px;
+  }
+  
+  #left-arrow {
+    border-width: 50px 40px 50px 0;
+    border-color: transparent #fe982f transparent transparent;
+    left: 0;
+    margin-left: 25px;
+  }
+  
+  #right-arrow {
+    border-width: 50px 0 50px 40px;
+    border-color: transparent transparent transparent #fe982f;
+    right: 0;
+    margin-right: 25px;
+  }
+  
+  #slide {
+    width: 600px;
+    border-style: solid;
+    border-color: #fe982f;
+    border-width: thin;
+    margin: auto;
+  }
+
+  #slideText{
+      text-align: center;
+  }
+
+  #slideText p{
+      margin: 10px;
+  }
+
+  #slide img{
+      display: block;
+      width: 550px;
+      margin: auto;
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
